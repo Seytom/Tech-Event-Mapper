@@ -5,7 +5,8 @@
       var city;
       var coords = [];
       var mu_results=[];
-        $(document).ready(function(){
+
+      $(document).ready(function(){
 
 
           //initial display of Seattle map/info on page load

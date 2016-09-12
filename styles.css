@@ -1,14 +1,10 @@
-#map-canvas { height: 45rem;
-    width: 100%; 
-    border: .3rem solid black;
-}
+/* ---------------------------------------------------------- */
+/* -----------BASIC SETUP AND REUSABLE COMPONENTS------------ */
+/* ---------------------------------------------------------- */
+
 html {
      height: 100%;
 	overflow-y: scroll;
-}
-
-.navbar .container{
-    background-color: #e3e3e3;
 }
 
 body {
@@ -16,10 +12,8 @@ body {
 	background-color: bisque;
 }
 
-
-input {
-    margin:1rem;
-    width: 14rem;
+h3{
+	color:silver;
 }
 
 .container {
@@ -27,13 +21,34 @@ input {
 	background-color: white;
 }
 
-.table  {
-   text-align: center;
-    background-color: #d6d6d6;
+/* ---------------------------------------------- */
+      /* -----------NAVBAR------------ */
+/* ---------------------------------------------- */
+
+
+.navbar .container{
+    background-color: #e3e3e3;
 }
 
-h3{
-	color:silver;
+
+/* ---------------------------------------------- */
+      /* -----------MAP------------ */
+/* ---------------------------------------------- */
+
+
+#map-canvas { height: 45rem;
+    width: 100%; 
+    border: .3rem solid black;
+}
+
+/* ---------------------------------------------- */
+      /* -----------INPUT------------ */
+/* ---------------------------------------------- */
+
+
+input {
+    margin:1rem;
+    width: 14rem;
 }
 
 #prompt{
@@ -42,12 +57,6 @@ h3{
 	font-size:15px;
 	position:relative;
 	top:-20px;
-}
-
-
-#key{
-    padding:5px;
-    float: right;
 }
 
 #S {
@@ -70,6 +79,16 @@ h3{
 	top: 240px;
 }
 
+#key{
+    padding:5px;
+    float: right;
+}
+
+.table  {
+   text-align: center;
+    background-color: #d6d6d6;
+}
+
 
 /* ---------------------------------------------- */
       /* -----------FOOTER------------ */
@@ -84,39 +103,21 @@ footer .row:last-child{
     text-align: center;
 }
 
-.footer-nav1{
-    font-size: 90%;
-    padding: 5px;
-    float:left;
-    list-style: none;
-}
-.footer-nav1 li{
-    display: inline-block;
-    padding: 0 5px
-}
-
 .footer-nav2{
     font-size: 200%;
     list-style: none;
     padding-right: 10px;
 }
+
 .footer-nav2 li{
     display: inline-block;
     padding: 10px;
-    
 }
 
-.footer-nav1 li a:link,
-.footer-nav1 li a:visited,
 .footer-nav2 li a:link,
 .footer-nav2 li a:visited {
     color:#acacac;
     border: 0;
-}
-
-.footer-nav1 li a:hover,
-.footer-nav1 li a:active {
-    color: #F89406;
 }
 
 .footer-nav2 li a .ion-social-github:hover,
@@ -126,8 +127,7 @@ footer .row:last-child{
 
 .footer-nav2 li a .ion-social-linkedin:hover,
 .footer-nav2 li a .ion-social-linkedin:active {
-    color: #3b5998;
-    
+    color: #3b5998;    
 } 
 
 
