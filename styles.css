@@ -1,0 +1,133 @@
+#map-canvas { height: 45rem;
+    width: 100%; 
+    border: .3rem solid black;
+}
+html {
+     height: 100%;
+	overflow-y: scroll;
+}
+
+.navbar .container{
+    background-color: #e3e3e3;
+}
+
+body {
+    height: 100%; margin: 0; 
+	background-color: bisque;
+}
+
+
+input {
+    margin:1rem;
+    width: 14rem;
+}
+
+.container {
+    min-height: 4rem;
+	background-color: white;
+}
+
+.table  {
+   text-align: center;
+    background-color: #d6d6d6;
+}
+
+h3{
+	color:silver;
+}
+
+#prompt{
+	margin-top: 2rem;
+	color:black;
+	font-size:15px;
+	position:relative;
+	top:-20px;
+}
+
+
+#key{
+    padding:5px;
+    float: right;
+}
+
+#S {
+	left: 50px;
+	top: 100px;
+}
+
+#MV {
+	left: 50px;
+	top: 150px;
+}
+
+#user_location {
+	left: 50px;
+	top: 200px;
+}
+
+#user_submit {
+	left: 50px;
+	top: 240px;
+}
+
+
+/* ---------------------------------------------- */
+      /* -----------FOOTER------------ */
+/* ---------------------------------------------- */
+
+footer{
+    background: #333;
+}
+
+footer .row:last-child{
+    padding: 25px;
+    text-align: center;
+}
+
+.footer-nav1{
+    font-size: 90%;
+    padding: 5px;
+    float:left;
+    list-style: none;
+}
+.footer-nav1 li{
+    display: inline-block;
+    padding: 0 5px
+}
+
+.footer-nav2{
+    font-size: 200%;
+    list-style: none;
+    padding-right: 10px;
+}
+.footer-nav2 li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.footer-nav1 li a:link,
+.footer-nav1 li a:visited,
+.footer-nav2 li a:link,
+.footer-nav2 li a:visited {
+    color:#acacac;
+    border: 0;
+}
+
+.footer-nav1 li a:hover,
+.footer-nav1 li a:active {
+    color: #F89406;
+}
+
+.footer-nav2 li a .ion-social-github:hover,
+.footer-nav2 li a .ion-social-github:active {
+    color: #55ACEE;    
+}
+
+.footer-nav2 li a .ion-social-linkedin:hover,
+.footer-nav2 li a .ion-social-linkedin:active {
+    color: #3b5998;
+    
+} 
+
+
